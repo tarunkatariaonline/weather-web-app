@@ -1,0 +1,30 @@
+input::placeholder{
+    color: #06283d;
+    caret-color: #06283d;
+   
+}
+
+input:active{
+    border: 0px;
+    outline: 0px;
+}
+
+
+
+.btnColor:hover{
+background-color: #06283d!important;
+color: white;
+}
+
+
+
+.container{
+    height: 60px;
+    overflow: hidden;
+    transition: 0.5s;
+}
+
+.container.active{
+    height: 450px;
+   
+}
